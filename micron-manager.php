@@ -2,9 +2,9 @@
 /**
  * Micron Manager
  *
- * @package           MicronManager
- * @author            Lorenzo Quinti
- * @copyright         2026 Lorenzo Quinti
+ * @package           Micron Manager
+ * @author            Micron Manager
+ * @copyright         2026 MicronManager
  * @license           GPL-2.0-or-later
  *
  * @wordpress-plugin
@@ -14,7 +14,7 @@
  * Version:           1.0.0
  * Requires at least: 6.0
  * Requires PHP:      8.0
- * Author:            Lorenzo Quinti
+ * Author:            Micron Manager
  * Author URI:        https://github.com/lorenzoquinti
  * Text Domain:       micron-manager
  * Domain Path:       /languages
