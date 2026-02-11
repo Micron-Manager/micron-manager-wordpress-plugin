@@ -54,6 +54,7 @@ register_deactivation_hook( __FILE__, 'micron_manager_deactivate' );
  */
 function micron_manager_includes() {
     require_once MICRON_MANAGER_PLUGIN_DIR . 'includes/class-micron-manager-rest-customers-controller.php';
+    require_once MICRON_MANAGER_PLUGIN_DIR . 'includes/class-micron-manager-rest-health-controller.php';
 }
 add_action( 'plugins_loaded', 'micron_manager_includes' );
 
@@ -61,7 +62,10 @@ add_action( 'plugins_loaded', 'micron_manager_includes' );
  * Register REST API routes.
  */
 function micron_manager_register_rest_routes() {
-    $controller = new Micron_Manager_REST_Customers_Controller();
-    $controller->register_routes();
+    $customers_controller = new Micron_Manager_REST_Customers_Controller();
+    $customers_controller->register_routes();
+
+    $health_controller = new Micron_Manager_REST_Health_Controller();
+    $health_controller->register_routes();
 }
 add_action( 'rest_api_init', 'micron_manager_register_rest_routes' );
