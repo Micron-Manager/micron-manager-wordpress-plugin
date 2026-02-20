@@ -2,10 +2,16 @@
 
 **Plugin Name:** Micron Manager  
 **Version:** 1.0.0  
-**Author:** Lorenzo Quinti  
+**Stable Tag:** 1.0.0  
+**Author:** Micron Manager 
 **License:** GPL v2 or later  
 **Requires WordPress:** 6.0+  
-**Requires PHP:** 8.0+
+**Requires PHP:** 8.0.0  
+**Tested up to:** 6.9
+
+## Short Description
+
+Exposes custom REST API endpoints for external applications, enabling secure integration with external systems.
 
 ## Description
 
@@ -71,7 +77,7 @@ API endpoints require proper WordPress authentication. Ensure your application h
 ### File Structure
 
 ```
-micron-manager-wordpress-plugin/
+micron-manager/
 ├── micron-manager.php                          # Main plugin file
 ├── uninstall.php                              # Uninstall cleanup
 ├── includes/
@@ -105,7 +111,7 @@ A: Yes, the plugin is designed to work with WordPress caching mechanisms. Howeve
 
 ### Q: How do I report bugs or request features?
 
-A: Please visit the [GitHub repository](https://github.com/lorenzoquinti/micron-manager-wordpress-plugin) to report issues or submit feature requests.
+A: Please visit the [GitHub repository](https://github.com/Micron-Manager/micron-manager-wordpress-plugin) to report issues or submit feature requests.
 
 ## Changelog
 
@@ -130,7 +136,7 @@ For support, please:
 
 1. Check this README and FAQ section
 2. Review the [WordPress Plugin Developer Handbook](https://developer.wordpress.org/plugins/)
-3. Visit the [GitHub repository](https://github.com/lorenzoquinti/micron-manager-wordpress-plugin) for issues and documentation
+3. Visit the [GitHub repository](https://github.com/Micron-Manager/micron-manager-wordpress-plugin) for issues and documentation
 
 ## Contributing
 

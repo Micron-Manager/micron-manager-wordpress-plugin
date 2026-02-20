@@ -9,13 +9,14 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Micron Manager
- * Plugin URI:        https://github.com/lorenzoquinti/micron-manager-wordpress-plugin
+ * Plugin URI:        https://github.com/Micron-Manager/micron-manager-wordpress-plugin
  * Description:       Exposes custom REST API endpoints for external applications.
  * Version:           1.0.0
  * Requires at least: 6.0
- * Requires PHP:      8.0
+ * Requires PHP:      8.0.0
+ * Tested up to:      6.9
  * Author:            Micron Manager
- * Author URI:        https://github.com/lorenzoquinti
+ * Author URI:        https://github.com/Micron-Manager
  * Text Domain:       micron-manager
  * Domain Path:       /languages
  * License:           GPL v2 or later
